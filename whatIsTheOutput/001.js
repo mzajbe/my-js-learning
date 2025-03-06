@@ -8,6 +8,10 @@ for (var i = 0; i < 3; i++) {
 
 // output: 3 3 3
 
+// =================================================================================================================
+
+
+
 for (let i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 1);
 } 
@@ -17,5 +21,12 @@ for (let i = 0; i < 3; i++) {
 // Closure Behavior: Each setTimeout callback captures the i specific to its iteration. When the callback runs, it logs the value of i at the time it was created.
 
 // output: 0 1 2
+
+
+for(var x=0; x<3; x++){
+  setTimeout(() => console.log(x), 1);
+}
+console.log('x= ',x); 
+// here x can accessible from anywhere but if i declare it with let then it will not accessible from anywhere except loop. 
 
 
