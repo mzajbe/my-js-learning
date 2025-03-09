@@ -1,0 +1,12 @@
+
+Q. what is scope in javascript?
+
+=> In JavaScript, scope determines the accessibility of variables. It defines where variables can be accessed and used within your code. There are primarily two types of scope:
+
+Global Scope: Variables declared outside of any function or block have global scope. They can be accessed from anywhere in your code, including within functions.
+
+Local Scope (Function Scope): Variables declared inside a function have local scope. They can only be accessed within that function.
+
+Block Scope (Introduced with ES6): Variables declared with let and const inside a block (e.g., within an if statement or a loop) have block scope. They are only accessible within that block. var does not respect block scope; it is function-scoped.
+
+Understanding scope is crucial for writing maintainable and bug-free JavaScript code. It helps you avoid variable naming conflicts and unintended variable shadowing.

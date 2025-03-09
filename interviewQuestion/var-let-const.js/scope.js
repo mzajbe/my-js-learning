@@ -36,3 +36,5 @@ if (true) {
   console.log(qux); // ReferenceError: qux is not defined
 
 // In the above code snippet, the variables bar, baz, and qux are declared inside an if block. The var variable bar is accessible outside of the block because var variables are function-scoped. However, the let variable baz and the const variable qux are block-scoped and are not accessible outside of the block they were defined in. This demonstrates the difference between function scope and block scope in JavaScript.
+
+
