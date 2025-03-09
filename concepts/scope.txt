@@ -1,0 +1,21 @@
+Scope determines where a variable or function is accessible in your code. There are three main types of scope in JavaScript:
+
+Global Scope
+A variable declared in the global scope is accessible anywhere in your code, both inside and outside functions or blocks.
+
+Variables declared outside of any function or block are in the global scope.
+
+Example:
+
+var globalVar = "I am global";
+
+function printGlobal() {
+  console.log(globalVar); // Accessible here
+}
+
+printGlobal(); // Output: "I am global"
+console.log(globalVar); // Output: "I am global"
+
+
+
+Key Point: Global variables can be accessed and modified from anywhere, which can sometimes lead to unintended side effects or bugs.
